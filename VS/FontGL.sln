@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32407.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontGL", "FontGL.vcxproj", "{C8A273E1-FA66-4005-ABC9-6FF90ECB8ABD}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontGL", "FontGL.vcxproj", "{655011DA-268A-4281-B697-0F7295F72EE6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FontGL_tests", "..\tests\VS\FontGL_tests.vcxproj", "{F049EA05-20A3-4CD8-84A1-D8146CE30340}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +15,27 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C8A273E1-FA66-4005-ABC9-6FF90ECB8ABD}.Debug|x64.ActiveCfg = Debug|x64
-		{C8A273E1-FA66-4005-ABC9-6FF90ECB8ABD}.Debug|x64.Build.0 = Debug|x64
-		{C8A273E1-FA66-4005-ABC9-6FF90ECB8ABD}.Debug|x86.ActiveCfg = Debug|Win32
-		{C8A273E1-FA66-4005-ABC9-6FF90ECB8ABD}.Debug|x86.Build.0 = Debug|Win32
-		{C8A273E1-FA66-4005-ABC9-6FF90ECB8ABD}.Release|x64.ActiveCfg = Release|x64
-		{C8A273E1-FA66-4005-ABC9-6FF90ECB8ABD}.Release|x64.Build.0 = Release|x64
-		{C8A273E1-FA66-4005-ABC9-6FF90ECB8ABD}.Release|x86.ActiveCfg = Release|Win32
-		{C8A273E1-FA66-4005-ABC9-6FF90ECB8ABD}.Release|x86.Build.0 = Release|Win32
+		{655011DA-268A-4281-B697-0F7295F72EE6}.Debug|x64.ActiveCfg = Debug|x64
+		{655011DA-268A-4281-B697-0F7295F72EE6}.Debug|x64.Build.0 = Debug|x64
+		{655011DA-268A-4281-B697-0F7295F72EE6}.Debug|x86.ActiveCfg = Debug|Win32
+		{655011DA-268A-4281-B697-0F7295F72EE6}.Debug|x86.Build.0 = Debug|Win32
+		{655011DA-268A-4281-B697-0F7295F72EE6}.Release|x64.ActiveCfg = Release|x64
+		{655011DA-268A-4281-B697-0F7295F72EE6}.Release|x64.Build.0 = Release|x64
+		{655011DA-268A-4281-B697-0F7295F72EE6}.Release|x86.ActiveCfg = Release|Win32
+		{655011DA-268A-4281-B697-0F7295F72EE6}.Release|x86.Build.0 = Release|Win32
+		{F049EA05-20A3-4CD8-84A1-D8146CE30340}.Debug|x64.ActiveCfg = Debug|x64
+		{F049EA05-20A3-4CD8-84A1-D8146CE30340}.Debug|x64.Build.0 = Debug|x64
+		{F049EA05-20A3-4CD8-84A1-D8146CE30340}.Debug|x86.ActiveCfg = Debug|Win32
+		{F049EA05-20A3-4CD8-84A1-D8146CE30340}.Debug|x86.Build.0 = Debug|Win32
+		{F049EA05-20A3-4CD8-84A1-D8146CE30340}.Release|x64.ActiveCfg = Release|x64
+		{F049EA05-20A3-4CD8-84A1-D8146CE30340}.Release|x64.Build.0 = Release|x64
+		{F049EA05-20A3-4CD8-84A1-D8146CE30340}.Release|x86.ActiveCfg = Release|Win32
+		{F049EA05-20A3-4CD8-84A1-D8146CE30340}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {4C9A8113-96C0-4459-9248-27A023C9AC2D}
+		SolutionGuid = {BA521212-AB08-4C37-9A7C-DBC188AD8CAF}
 	EndGlobalSection
 EndGlobal

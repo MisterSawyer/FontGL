@@ -1,6 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="..\sources\main.cpp" />
+    <ClCompile Include="..\sources\pch\pch.cpp">
+      <Filter>pch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sources\fontgl.cpp" />
+    <ClCompile Include="..\sources\dll\dllmain.cpp">
+      <Filter>dll</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\sources\pch\pch.h">
+      <Filter>pch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\fontgl\fontgl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="dll">
+      <UniqueIdentifier>{f38114c1-ea0e-48de-9b34-8e4fe9f04d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pch">
+      <UniqueIdentifier>{9b686fb8-e022-44cc-b5e3-811e52ce7f9e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

@@ -1,0 +1,19 @@
+﻿// pch.h: wstępnie skompilowany plik nagłówka.
+// Wymienione poniżej pliki są kompilowane tylko raz, co poprawia wydajność kompilacji dla przyszłych kompilacji.
+// Ma to także wpływ na wydajność funkcji IntelliSense, w tym uzupełnianie kodu i wiele funkcji przeglądania kodu.
+// Jednak WSZYSTKIE wymienione tutaj pliki będą ponownie kompilowane, jeśli którykolwiek z nich zostanie zaktualizowany między kompilacjami.
+// Nie dodawaj tutaj plików, które będziesz często aktualizować (obniża to korzystny wpływ na wydajność).
+
+#ifndef PCH_H
+#define PCH_H
+
+
+//#define WIN32_LEAN_AND_MEAN             // Wyklucz rzadko używane rzeczy z nagłówków systemu Windows
+
+// w tym miejscu dodaj nagłówki, które mają być wstępnie kompilowane
+#include <windows.h>
+#include <iostream>
+#include <vector>
+#include <memory>
+
+#endif //PCH_H
